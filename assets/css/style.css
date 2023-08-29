@@ -60,3 +60,10 @@ button {
     padding: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .container img {
+        width: 70%;
+        margin: 20px;
+    }    
+}
