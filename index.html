@@ -11,11 +11,21 @@
   <div class="container">
     <img src="assets/img/Logo-Projeto-Reserva-de-Emergência-SemFundo.png" alt="Logo Reserva de Emergência"> 
     <form>
+
+     <div class="items"> 
       <label for="">Qual é o seu nome?</label> <br>
-        <input type="text" name="name_input" id="" placeholder="Digite aqui seu nome..."> <br>
+        <input type="text" name="name_input" id="" placeholder="Digite aqui seu nome..." required> <br>
+     </div>   
+
+     <div class="items">
       <label for="">Qual é o seu gasto mensal médio?</label> <br>
-        <input type="number" name="monthly_expenses" id="" placeholder="Digite aqui o valor..."> <br>
-      <button type="submit">Enviar</button>  
+        <input type="number" name="monthly_expenses" id="" placeholder="Digite aqui o valor..." required> <br>  
+    </div>
+
+    <div class="items">
+      <button type="submit">Enviar</button>
+    </div>
+
     </form> 
 
   </div>  
