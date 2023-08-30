@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <script src="assets/js/script.js" defer></script>
     <title>Calculadora Reserva de Emergência</title>
 </head>
 <body>
@@ -14,16 +15,16 @@
 
      <div class="items"> 
       <label for="">Qual é o seu nome?</label> <br>
-        <input type="text" name="name_input" id="" placeholder="Digite aqui seu nome..." required> <br>
+        <input type="text" name="name_input" id="name" placeholder="Digite aqui seu nome..." required> <br>
      </div>   
 
      <div class="items">
       <label for="">Qual é o seu gasto mensal médio?</label> <br>
-        <input type="number" name="monthly_expenses" id="" placeholder="Digite aqui o valor..." required> <br>  
+        <input type="number" name="monthly_expenses" id="cost" placeholder="Digite aqui o valor..." required> <br>  
     </div>
 
     <div class="items">
-      <button type="submit">Enviar</button>
+      <button type="submit" id="send">Enviar</button>
     </div>
 
     </form> 
