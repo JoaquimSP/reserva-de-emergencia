@@ -11,22 +11,19 @@
 <body>
   <div class="container">
     <img src="assets/img/Logo-Projeto-Reserva-de-Emergência-SemFundo.png" alt="Logo Reserva de Emergência"> 
-    <form>
 
+    <form action="result.html" method="GET">
      <div class="items"> 
       <label for="">Qual é o seu nome?</label> <br>
-        <input type="text" name="name_input" id="name" placeholder="Digite aqui seu nome..." required> <br>
+        <input type="text" name="name" id="name" placeholder="Digite aqui seu nome..." required> <br>
      </div>   
-
      <div class="items">
       <label for="">Qual é o seu gasto mensal médio?</label> <br>
-        <input type="number" name="monthly_expenses" id="cost" placeholder="Digite aqui o valor..." required> <br>  
+        <input type="number" name="cost" id="cost" placeholder="Digite aqui o valor..." required> <br>  
     </div>
-
     <div class="items">
-      <button type="submit" id="send">Enviar</button>
+      <button type="submit" onclick="handleSubmit()">Enviar</button>
     </div>
-
     </form> 
 
   </div>  
