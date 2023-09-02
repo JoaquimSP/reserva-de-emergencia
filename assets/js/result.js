@@ -8,8 +8,8 @@ window.addEventListener('load', () => {
     const cost3 = cost * 12;
 
     document.getElementById('result-name').innerHTML = name;
-    
-    document.getElementById('result-value').innerHTML = cost;
+
+    /* document.getElementById('result-value').innerHTML = cost; */
     document.getElementById('result-value1').innerHTML = cost1;
     document.getElementById('result-value2').innerHTML = cost2;
     document.getElementById('result-value3').innerHTML = cost3;

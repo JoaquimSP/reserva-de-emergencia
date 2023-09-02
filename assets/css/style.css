@@ -23,7 +23,8 @@ body {
 
 h1 {
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    margin: 5px;
 }
 
 .container {
@@ -31,16 +32,60 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .container img {
-    width: 30%;
-    margin: 20px;
+    width: 25%;
+    margin: 10px;
 }
 
 .items {
     margin: 20px;
+}
+
+.name-form {
+    font-weight: bold;
+}
+
+.result {
+    display: flex;
+    /* margin: 10px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.divs {
+    margin: 30px;
+}
+
+.divs p {
+    margin: 5px; /* Verificar */
+}
+
+.img-icon {
+    background-color: var(--color-blue);
+    border-radius: 5px;
+}
+
+/* Tags P do Resultado */
+
+.title {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--color-green);
+}
+
+.value {
+    font-size: 1.1em;
+    color: var(--color-green);
 }
 
 label {
@@ -66,8 +111,15 @@ button {
     cursor: pointer;
 }
 
-.name-form {
-    font-weight: bold;
+button a {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 50px;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {
