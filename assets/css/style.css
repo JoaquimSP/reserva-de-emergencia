@@ -57,11 +57,11 @@ h1 {
     justify-content: center;
     align-content: space-around;
     /* background-color: var(--color-white); */
-    margin: 15px;
+    margin: 5px;
 }
 
 .divs {
-    margin: 30px;
+    margin: 10px;
 }
 
 .divs p {
@@ -126,8 +126,17 @@ button a {
 }
 
 @media (max-width: 600px) {
-    .container img {
+     .container img {
         width: 50%;
+        margin: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .divs img {
+        width: 100%;
         margin: 10px;
     }
     
