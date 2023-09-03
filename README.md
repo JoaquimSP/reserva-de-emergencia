@@ -5,7 +5,8 @@
 2.	Reserva Média (6 Meses): Expandindo a visão, ela também mostrará o valor necessário para uma reserva que pode cobrir seis meses de custos de vida, oferecendo uma camada extra de segurança.
 3.	Grande Reserva (12 Meses): Para aqueles que desejam uma reserva de emergência mais substancial, a calculadora 
 
-<img src="assets/img/print-project.png" alt="Exemplo imagem">
+<img src="assets/img/print-project.png" alt="Print da tela principal com o formulário">
+<img src="assets/img/print-project-2.png" alt="Print do resultado">
 
 ## 🚀 Tecnologias
 
