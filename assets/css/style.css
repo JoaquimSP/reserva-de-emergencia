@@ -46,8 +46,16 @@ h1 {
     margin: 20px;
 }
 
+.btn {
+    margin: 20px;
+}
+
 .name-form {
     font-weight: bold;
+}
+
+.name-result{
+    margin: 25px;
 }
 
 .result {
