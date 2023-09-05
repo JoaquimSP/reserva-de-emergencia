@@ -85,18 +85,24 @@ h1 {
 
 .title {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 
 .subtitle {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: var(--color-green);
 }
 
 .value {
     font-size: 1.1em;
-    color: var(--color-green);
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    width: 105px;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
 }
 
 label {
@@ -144,8 +150,17 @@ button a {
     }
 
     .divs img {
-        width: 100%;
-        margin: 10px;
+        width: 60%;
+        margin: 5px;
+    }
+
+    .title {
+        font-size: 1.3em;
+    }
+
+    .value {
+        width: 80px;
+        font-size: 0.8em;
     }
     
 }
