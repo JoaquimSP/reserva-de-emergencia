@@ -95,7 +95,7 @@ h1 {
 }
 
 .value {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     color: var(--color-white);
     background-color: var(--color-blue);
@@ -126,6 +126,7 @@ button {
     width: 60px;
     padding: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button a {
